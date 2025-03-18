@@ -15,12 +15,12 @@ def log_post_request():
     # Get the JSON data from the request
     data = request.get_json()
     
-    # Print the data to the console (log)
-    print(data)
+    # # Print the data to the console (log)
+    # print(data)
     
-    ###You can also log it to a file if you prefer
-    with open('log.txt', 'a') as f:
-        f.write(str(data) + '\n')
+    # ###You can also log it to a file if you prefer
+    # with open('log.txt', 'a') as f:
+    #     f.write(str(data) + '\n')
     
     # Return a response
     # return 'Received and logged the POST request successfully!', 200
